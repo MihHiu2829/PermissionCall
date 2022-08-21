@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Animal with family"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/broder_layout"
+        android:layout_height="wrap_content"/>
+
+
+
+    <TableRow
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_width="match_parent">
+        <ImageView
+            android:layout_width="90dp"
+            android:src="@drawable/icon_dog"
+            android:id="@+id/iv_dog"
+            android:contentDescription="Con chó"
+            android:layout_height="match_parent"/>
+
+        <ImageView android:layout_width="90dp"
+            android:src="@drawable/icon_checken"
+            android:id="@+id/iv_checken"
+            android:contentDescription="Con gà"
+            android:layout_height="match_parent"/>
+        <ImageView android:layout_width="90dp"
+            android:src="@drawable/icon_bird"
+            android:id="@+id/iv_bird"
+            android:contentDescription="Con trym"
+            android:layout_height="match_parent"/>
+        <ImageView android:layout_width="90dp"
+            android:src="@drawable/icon_penguin"
+            android:id="@+id/iv_penguin"
+            android:contentDescription="Con trym ko cánh"
+            android:layout_height="match_parent"/>
+    </TableRow>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_height="200dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="2dp"
+                android:textSize="19dp"
+                android:id="@+id/tv_content"
+                android:layout_height="match_parent"/>
+        </ScrollView>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="enter to detail"
+        android:id="@+id/bt_detail"
+        android:enabled="false"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:src="@drawable/ic_dialpad"
+                android:id="@+id/iv_dialpad"
+                android:layout_marginEnd="20dp"
+                app:tint="@color/black" />
+
+            <ImageView
+                android:layout_width="56dp"
+                android:id="@+id/iv_call"
+                android:layout_height="56dp"
+                android:src="@drawable/ic_call"
+                app:tint="@color/black" />
+
+
+    </TableRow>
+</LinearLayout>

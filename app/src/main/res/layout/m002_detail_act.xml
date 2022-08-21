@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Con chó"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/tv_nameAnimal"
+        android:textSize="30dp"
+        android:layout_marginBottom="40dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:id="@+id/iv_imageAnimal"
+        android:src="@drawable/icon_bird"
+        android:layout_height="300dp"/>
+</LinearLayout>
